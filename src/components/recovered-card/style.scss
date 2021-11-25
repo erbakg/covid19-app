@@ -1,0 +1,39 @@
+.recovered-card {
+  width: 30vw;
+  background-color: #1bbc9b;
+  border-radius: 5px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  .recovered-card_top-text {
+    font-family: 'Roboto-Medium', sans-serif, serif;
+
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #ffffff;
+  }
+  .recovered-card_middle-text {
+    font-family: 'Roboto-Medium', sans-serif, serif;
+
+    font-size: 100px;
+    line-height: 117px;
+
+    color: #ffffff;
+  }
+  .recovered-card_bottom-text {
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    width: 320px;
+    font-family: 'Roboto-Medium', sans-serif, serif;
+
+    font-size: 22px;
+    line-height: 26px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

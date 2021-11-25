@@ -1,0 +1,23 @@
+.dropdown_content {
+  width: 360px;
+  height: 61px;
+  border-radius: 5px;
+
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .dropdown_text {
+    font-family: 'Roboto-Medium', sans-serif, serif;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 25px;
+  }
+  .dropdown_arrow-icon {
+    margin-right: 25px;
+    width: 13px;
+    height: 8px;
+  }
+}
